@@ -16,8 +16,7 @@ for f in files:
             print('error')
         if (i % 10000) == 0:
             print(i)
-
-
+    current_file.close()
 j = 0
 for k in event:
     j += 1
